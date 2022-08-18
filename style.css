@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Poppins:ital,wght@0,700;0,800;1,500;1,800&family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+}
+.nav{
+
+display: flex;
+justify-content: space-between;
+background-color:rgba(87, 84, 84, 0.164);
+}
+.nav .logo{
+    width:5px ;
+    height: 2rem;
+    padding: 1rem 3rem;
+}
+.nav .logo img{
+    width: 50px;
+}
+.nav .logo:hover{
+   cursor: pointer;
+}
+.nav ul{
+  display: flex;
+  margin: 0.5rem;
+  padding-left: 0.5rem;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  
+}
+.nav ul a{
+    text-decoration: none;
+    margin: 1rem;
+    list-style-type: none;
+    color:#000 ;
+    font-size: 1.5rem;
+    height: 1rem;
+    padding-left: 2rem;
+   
+}
+.nav ul a:hover{
+    color:blueviolet;
+}
+.container img{
+    width: 500px;
+    position:absolute;
+    right: 10px;
+   
+}
+.container .text{
+    font-size: 30px;
+    height: 20px;
+    position:relative;
+   padding: 10rem;
+
+}
+.container .text input{
+    position:relative;
+    margin: 70px;
+    padding: 10px;
+border-bottom: 50%;  
+font-size: 20px; 
+cursor: pointer;
+}
+.container .text input:hover{
+    background-color: blueviolet;
+    color: #fff;
+}
+ .contente{
+display:flex;
+padding-top: 15rem;
+justify-content: center;
+text-align: center;
+background-color:rgb(151, 151, 151);
+
+}
+.contente h1{
+    padding-bottom: 1rem;
+}
+.wrapper{
+background: rgb(121, 29, 197);
+/* display:flex; */
+border-radius: 10px;
+width: 550px;
+height:350px;
+justify-content: center;
+/* border-bottom-left-radius: 0;
+border-top-right-radius: 0; */
+}
+.wrapper .form input{
+    background:#222222;
+    color: #fff;
+    font-size: 15px;
+    width:20rem;
+    border-radius: 20px;
+    padding: 10px;
+    margin:10px;
+    border: none;
+    outline: none;
+}
+.wrapper .form textarea{
+    background: #222222;
+    color: #fff;
+    font-size: 15px;
+    width:20rem;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+.wrapper .form .btn{
+    background: #222222;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+    opacity: 0.8;
+    margin-bottom: 5px;
+    transition: 0.3s all ease;
+}
+.wrapper .form .btn:hover{
+    opacity: 1;
+}
+.content{
+text-align: center;
+ background:  rgb(121, 29, 197);
+ color: #fff;
+ margin-top: 10px;
+ padding: 10px;
+ width: 500px;
+margin-left: 22rem;
+border-radius: 10px;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+
+ 
+}
